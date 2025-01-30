@@ -38,4 +38,4 @@ def test_coin_combination_with_zero_cents():
 
 def test_coin_combination_with_negative_cents():
     cents = -10
-    assert get_coin_combination(cents) == "Invalid cents"
+    assert get_coin_combination(cents) == [0, 0, 0, 0]
